@@ -1,0 +1,8 @@
+flask
+numpy
+pillow
+tensorflow
+torch
+torchvision
+timm
+scikit-learn
