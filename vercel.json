@@ -1,9 +1,4 @@
 {
-  "builds": [
-    { "src": "client/index.html", "use": "@vercel/static-build" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
-  ],
-  "outputDirectory": "dist/public"
+  "builds": [{ "src": "package.json", "use": "@vercel/static-build" }],
+  "routes": [{ "src": "/(.*)", "dest": "/index.html" }]
 }
